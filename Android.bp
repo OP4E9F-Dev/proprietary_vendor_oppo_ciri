@@ -17822,7 +17822,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -17854,7 +17853,7 @@ cc_prebuilt_library_shared {
                 "libaudioclient",
                 "libaudiofoundation",
                 "audioclient-types-aidl-cpp",
-                "android.media.audio.common.types-V4-cpp",
+                "android.media.audio.common.types-V1-cpp",
                 "libwfdmmsrc_system",
                 "libwfdavenhancements",
                 "libhidlbase",
@@ -17867,7 +17866,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -18306,7 +18304,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -19897,7 +19894,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libdl",
-                "libstdc++_vendor",
+                "libstdc++",
                 "libcdsprpc",
                 "libc++_shared",
                 "libm",
@@ -21300,7 +21297,6 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libwvhidl.so",
             ],
             shared_libs: [
-                "libcrypto_shim",
                 "android.hardware.drm@1.0",
                 "android.hardware.drm@1.1",
                 "android.hardware.drm@1.2",
@@ -21337,7 +21333,6 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/mediadrm/libwvdrmengine.so",
             ],
             shared_libs: [
-                "libcrypto_shim",
                 "libbase",
                 "libcrypto",
                 "liblog",
