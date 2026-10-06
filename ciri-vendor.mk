@@ -643,28 +643,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
-    libMpeg4SwEncoder \
-    libMpeghSwEnc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxMpeghEncSw \
-    libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
     libadreno_utils \
@@ -722,7 +702,6 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker_stub \
     libsdsprpc \
     libsoc_helper \
-    libswvdec \
     libsysmon_cdsp_skel \
     libthermalclient \
     libvppclient \
@@ -742,9 +721,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.power.pasrmanager@1.0 \
     sound_trigger.primary.lito \
     libFileMux_proprietary \
-    libOmxDsdDec \
-    libOmxMpeghDecSw \
-    libOmxVideoDSMode \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -754,7 +730,6 @@ PRODUCT_PACKAGES += \
     libaudioparsers \
     libcapiv2svacnn \
     libcapiv2vop \
-    libdsd2pcm \
     libfastcrc \
     libgcs-calwrapper \
     libgcs-ipc \
