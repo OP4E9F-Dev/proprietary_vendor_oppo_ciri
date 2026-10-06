@@ -918,6 +918,7 @@ PRODUCT_PACKAGES += \
     libcpion \
     libdataitems \
     libdisp-aba \
+    libdisplayconfig.qti \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
@@ -929,6 +930,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libhdr_tm \
     libhexagon_nn_stub \
+    libhistogram \
     libhta_hexagon_runtime \
     libipebpsstriping \
     libizat_client_api \
@@ -973,6 +975,7 @@ PRODUCT_PACKAGES += \
     libqcrilFramework \
     libqcrildatactl \
     libqdma_file_agent \
+    libqdutils \
     libqisl \
     libqrtr \
     libqseed3 \
@@ -986,11 +989,14 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librpmb \
+    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-diag \
     libsdm-disp-vndapis \
+    libsdmcore \
     libsdmextension \
+    libsdmutils \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
@@ -1337,6 +1343,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.perf@2.2-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
